@@ -3,11 +3,13 @@ import Card from "./card.jsx";
 
 const Cards = () => {
 	return (
-		<div>
-			<Card />
-			<Card />
-			<Card />
-			<Card />
+		<div className="container">
+			<div className="row">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
 		</div>
 	);
 };
